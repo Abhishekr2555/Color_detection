@@ -36,8 +36,13 @@ After closing the histogram and pie chart, a new window will appear. Click on an
 Methodology
 
 GUI Creation: We used the tkinter library to create the graphical user interface.
+
 Image Selection: The filedialog module from tkinter allows users to select an image.
+
 Dominant Color Extraction: The colorthief library extracts dominant colors from the image along with their RGB values.
+
 Pixel Intensity Distribution: Using matplotlib's pyplot, the program plots the pixel intensity distribution in the form of a histogram and pie chart.
+
 Grayscale Image Generation: The program generates a grayscale image of the selected image using OpenCV.
+
 Pixel RGB Value Identification: Using OpenCV and mouse capturing, the program allows users to select a particular pixel and display its RGB value and color name from a predefined CSV file.
