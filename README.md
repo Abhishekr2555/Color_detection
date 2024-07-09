@@ -34,6 +34,7 @@ Click the "Info" button to view a pixel intensity distribution histogram and a c
 After closing the histogram and pie chart, a new window will appear. Click on any part of the image to display the RGB value and color name of the corresponding pixel.
 
 Methodology
+
 GUI Creation: We used the tkinter library to create the graphical user interface.
 Image Selection: The filedialog module from tkinter allows users to select an image.
 Dominant Color Extraction: The colorthief library extracts dominant colors from the image along with their RGB values.
