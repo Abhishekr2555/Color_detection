@@ -26,8 +26,11 @@ Run the Python file in either PyCharm or a Python console with the required libr
 Follow these steps:
 
 Click the "Select Image" button and choose an image from your computer.
+
 Click the "Detect Color" button to display the dominant colors in the corresponding side panel along with their RGB values.
+
 Click the "Info" button to view a pixel intensity distribution histogram and a corresponding pie chart.
+
 After closing the histogram and pie chart, a new window will appear. Click on any part of the image to display the RGB value and color name of the corresponding pixel.
 
 Methodology
